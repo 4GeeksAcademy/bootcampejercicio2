@@ -1,0 +1,64 @@
+.fa-instagram{
+    font-size: xx-large;
+}
+.logo{
+    display: flex;
+    display: inline block;
+    
+}
+.titulo{
+    margin-left: 5px;
+    font-size: 23px;
+}
+.botones{
+    display: flex;
+    align-items: right;
+}
+.btn-success{
+    margin: 5px;
+}
+.btn-secondary{
+    margin: 5px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.pagina1 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.titulotarj{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.iconosmodal i{
+   
+    justify-content: space-between;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.icono {
+    padding: 8px;
+    border: 1px solid rgb(170, 168, 168);
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  .icono i {
+    font-size: 25px;
+    border-radius: 0;
+  }
+
+  .logout{
+    color: rgba(241, 44, 44, 0.555);
+    border-top: 1px solid rgb(187, 184, 184);
+  }
+
