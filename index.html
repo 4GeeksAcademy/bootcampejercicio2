@@ -11,13 +11,13 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <div class="logo" >
-      <i class="fa-brands fa-instagram"></i>
-      <p class="titulo"><strong>Instagram</strong></p>
+      <div class="logo d-flex" >
+      <i class="fa-brands fa-instagram fs-3"></i>
+      <p class="titulo ml-1 fs-5"><strong>Instagram</strong></p>
     </div>
-    <div class="botones" >
+    <div class="botones d-flex justify-content-end" >
             <!--bt1-->
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Create a new post
             </button>
             
@@ -34,9 +34,9 @@
                       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                       <label for="floatingTextarea">Add the caption of your post here</label>
                     </div>
-                    <div class="iconosmodal">
-                     <i class="fa-solid fa-camera icono"></i>
-                     <i class="fa-solid fa-location-dot icono"></i>
+                    <div class="iconosmodal d-flex mt-3">
+                     <i class="fa-solid fa-camera icono p-2 border border-secondary bg-light rounded fs-4 me-2"></i>
+                     <i class="fa-solid fa-location-dot icono p-2 border border-secondary bg-light rounded fs-4"></i>
                     </div>
                   </div>
                   <div class="modal-footer">
@@ -49,15 +49,15 @@
             <!--bt2-->
             
             <div class="dropdown">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="btn btn-secondary dropdown-toggle m-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-gear"></i>
               </a>
             
               <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Accesibiliti</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
                 <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-                <li><a class="dropdown-item logout" href="#">log out</a></li>
+                <li><a class="dropdown-item logout text-danger border-top border-secondary" href="#">log out</a></li>
               </ul>
             </div>
             
@@ -66,7 +66,7 @@
     </div>
   </nav>
   <!--fin del navbar-->
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <ul class="nav nav-tabs justify-content-center id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
     </li>
@@ -81,15 +81,15 @@
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
       <div class="container pagina1">
         <div class="row d-flex justify-content-center">
-          <img src="https://img.freepik.com/fotos-premium/elegante-perro-blanco-vestido-elegante-traje-corbata_855892-3109.jpg" alt="" class="col-4">
-          <img src="https://static1.mujerhoy.com/www/multimedia/202402/12/media/cortadas/harvard-felicidad-40-anos-mediana-edad-kkT-U2101510684785LAD-1248x1248@MujerHoy.jpg" alt="" class="col-4">
-          <img src="https://hips.hearstapps.com/es.h-cdn.co/hares/images/cultura/viajes-planes/guia-de-48-horas-varsovia/3462101-1-esl-ES/48-horas-en-varsovia-entre-el-pasado-y-futuro.jpg?crop=1xw:1.0xh;center,top&resize=1200:*" alt="" class="col-4">
-          <img src="https://img.freepik.com/premium-photo/painting-woman-wearing-traditional-clothes-balinese-woman-illustration-generative-ai_1040295-1717.jpg" alt="" class="col-4">
-          <img src="https://images.ecestaticos.com/JbIVFzV30x01nwGARKdsSPFmUtA=/5x110:2122x1303/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Face%2F074%2F921%2Face074921970083fefa0bde0977fca14.jpg" alt="" class="col-4">
-          <img src="https://media.revistagq.com/photos/62f5f8228b67f537ee2184a1/1:1/w_1701,h_1701,c_limit/GettyImages-81370799.jpg" alt="" class="col-4">
-          <img src="https://media.gq.com.mx/photos/62cd9721efcf64a2cb5bce51/1:1/w_2000,h_2000,c_limit/Estilo-punk.jpg" alt="" class="col-4">
-          <img src="https://sutilweb.eu/wp-content/uploads/2024/02/Tipos-de-inputs-HTML.webp" alt="" class="col-4">
-          <img src="https://st3.depositphotos.com/1752627/19366/i/450/depositphotos_193668162-stock-photo-varanasi-india-mar-2018-sadhu.jpg" alt="" class="col-4">
+          <img src="https://img.freepik.com/fotos-premium/elegante-perro-blanco-vestido-elegante-traje-corbata_855892-3109.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://static1.mujerhoy.com/www/multimedia/202402/12/media/cortadas/harvard-felicidad-40-anos-mediana-edad-kkT-U2101510684785LAD-1248x1248@MujerHoy.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://hips.hearstapps.com/es.h-cdn.co/hares/images/cultura/viajes-planes/guia-de-48-horas-varsovia/3462101-1-esl-ES/48-horas-en-varsovia-entre-el-pasado-y-futuro.jpg?crop=1xw:1.0xh;center,top&resize=1200:*" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://img.freepik.com/premium-photo/painting-woman-wearing-traditional-clothes-balinese-woman-illustration-generative-ai_1040295-1717.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://images.ecestaticos.com/JbIVFzV30x01nwGARKdsSPFmUtA=/5x110:2122x1303/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Face%2F074%2F921%2Face074921970083fefa0bde0977fca14.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://media.revistagq.com/photos/62f5f8228b67f537ee2184a1/1:1/w_1701,h_1701,c_limit/GettyImages-81370799.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://media.gq.com.mx/photos/62cd9721efcf64a2cb5bce51/1:1/w_2000,h_2000,c_limit/Estilo-punk.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://sutilweb.eu/wp-content/uploads/2024/02/Tipos-de-inputs-HTML.webp" alt="" class="col-4 mt-3 mb-3 justify-content-center">
+          <img src="https://st3.depositphotos.com/1752627/19366/i/450/depositphotos_193668162-stock-photo-varanasi-india-mar-2018-sadhu.jpg" alt="" class="col-4 mt-3 mb-3 justify-content-center">
         </div>
     </div>
   </div>
@@ -98,7 +98,7 @@
       <div class="container pagina1">
         <div class="row d-flex justify-content-center">
           <div class="card" style="width: 45rem;">
-            <div class="titulotarj">
+            <div class="titulotarj d-flex justify-content-between mt-3">
              <h3>My crazy Tobby!</h3>
              <p class="cod">03/65</p>
             </div>
@@ -110,7 +110,7 @@
        </div>
        <!--2-->
        <div class="card" style="width: 45rem;">
-        <div class="titulotarj">
+        <div class="titulotarj d-flex justify-content-between mt-3">
          <h3>The greatness of Warsaw</h3>
          <p class="cod">08/25</p>
         </div>
@@ -122,7 +122,7 @@
    </div>
    <!--3-->
    <div class="card" style="width: 45rem;">
-    <div class="titulotarj">
+    <div class="titulotarj d-flex justify-content-between mt-3">
      <h3>Mystical Wanderer</h3>
      <p class="cod">02/23</p>
     </div>
